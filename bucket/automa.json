@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "description": "Tuquet Automa Engine - High performance automation CLI & daemon",
+    "homepage": "https://github.com/tuquet/tuquet-automa",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tuquet/tuquet-automa/releases/download/v1.0.0/automa-v1.0.0-windows-x64.zip",
+            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+    },
+    "bin": "automa.exe",
+    "shortcuts": [
+        [
+            "automa.exe",
+            "Tuquet Automa Engine",
+            "start"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tuquet/tuquet-automa"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tuquet/tuquet-automa/releases/download/v$version/automa-v$version-windows-x64.zip"
+            }
+        }
+    }
+}
