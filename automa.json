@@ -10,13 +10,6 @@
         }
     },
     "bin": "automa.exe",
-    "shortcuts": [
-        [
-            "automa.exe",
-            "Tuquet Automa Engine",
-            "start"
-        ]
-    ],
     "checkver": {
         "github": "https://github.com/tuquet/tuquet-automa"
     },
