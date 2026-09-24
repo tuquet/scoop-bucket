@@ -8,7 +8,7 @@ To add this bucket and install software, run the following commands in PowerShel
 
 ```powershell
 # 1. Add the Tuquet bucket
-scoop bucket add tuquet https://github.com/tuquet/scoop-bucket
+scoop bucket add tuquet https://github.com/tuquet/tuquet-scoop-bucket
 
 # 2. Install Tuquet Automa Engine CLI
 scoop install automa
