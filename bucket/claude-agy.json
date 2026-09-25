@@ -1,7 +1,7 @@
 {
     "version": "7.3.17",
     "description": "Claude Code CLI with Google Antigravity OAuth integration (Zero API cost & On-Demand Proxy Lifecycle)",
-    "homepage": "https://github.com/tuquet/tuquet-skills",
+    "homepage": "https://github.com/tuquet/claude-agy",
     "license": "MIT",
     "depends": "nodejs-lts",
     "architecture": {
@@ -18,7 +18,7 @@
     ],
     "pre_install": [
         "$env:TARGET_DIR = $dir",
-        "irm https://raw.githubusercontent.com/tuquet/tuquet-skills/main/skills/claude-agy/scripts/setup.ps1 | iex"
+        "irm https://raw.githubusercontent.com/tuquet/claude-agy/main/scripts/setup.ps1 | iex"
     ],
     "post_uninstall": [
         "Get-Process cli-proxy-api -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue"
