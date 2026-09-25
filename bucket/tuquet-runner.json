@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "description": "Ultra-high performance universal distributed execution engine in Rust (AI Agents, Workflows, Shell, Webhooks)",
+    "description": "Ultra-fast universal distributed execution engine in Rust (tqr / tuquet-runner)",
     "homepage": "https://github.com/tuquet/tuquet-runner",
     "license": "MIT",
     "architecture": {
@@ -9,7 +9,13 @@
             "hash": ""
         }
     },
-    "bin": "tuquet-runner.exe",
+    "bin": [
+        "tqr.exe",
+        [
+            "tqr.exe",
+            "tuquet-runner"
+        ]
+    ],
     "persist": [
         "config",
         "logs"
