@@ -1,0 +1,39 @@
+name: CI (Manifest Validation)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Bucket Manifests
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON Syntax
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem -Path bucket/*.json
+          if ($files.Count -eq 0) {
+            Write-Error "No manifests found in bucket/ directory!"
+            exit 1
+          }
+          $hasError = $false
+          foreach ($file in $files) {
+            try {
+              $content = Get-Content $file.FullName -Raw | ConvertFrom-Json
+              Write-Host "[OK] $($file.Name) is valid JSON (version: $($content.version))" -ForegroundColor Green
+            } catch {
+              Write-Error "[FAIL] $($file.Name): $($_.Exception.Message)"
+              $hasError = $true
+            }
+          }
+          if ($hasError) { exit 1 }
