@@ -1,5 +1,5 @@
 {
-    "version": "7.3.17",
+    "version": "7.3.17.1",
     "description": "Claude Code CLI with Google Antigravity OAuth integration (Zero API cost & On-Demand Proxy Lifecycle)",
     "homepage": "https://github.com/tuquet/claude-agy",
     "license": "MIT",
