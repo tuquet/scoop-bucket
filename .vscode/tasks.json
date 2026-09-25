@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "🔍 Validate Bucket Manifests",
+      "label": "Validate Bucket Manifests",
       "type": "shell",
       "command": "powershell.exe",
       "args": [
