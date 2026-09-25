@@ -16,7 +16,7 @@
         "data",
         "logs"
     ],
-    "post_install": [
+    "pre_install": [
         "$env:TARGET_DIR = $dir",
         "irm https://raw.githubusercontent.com/tuquet/tuquet-skills/main/skills/claude-agy/scripts/setup.ps1 | iex"
     ],
