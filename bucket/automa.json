@@ -1,22 +1,22 @@
 {
     "version": "1.0.0",
-    "description": "Tuquet Automa Engine - High performance automation CLI & daemon",
-    "homepage": "https://github.com/tuquet/tuquet-automa",
+    "description": "Tuquet Automa Runner - Native browser automation runner & bridge daemon",
+    "homepage": "https://github.com/tuquet/tuquet-automa-runner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuquet/tuquet-automa/releases/download/v1.0.0/automa-v1.0.0-windows-x64.zip",
+            "url": "https://github.com/tuquet/tuquet-automa-runner/releases/download/v1.0.0/automa-v1.0.0-windows-x64.zip",
             "hash": "91d816cbf26ef674e7b3aad6196292ecd36625832257e11a084a6e37f66025fd"
         }
     },
     "bin": "automa.exe",
     "checkver": {
-        "github": "https://github.com/tuquet/tuquet-automa"
+        "github": "https://github.com/tuquet/tuquet-automa-runner"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tuquet/tuquet-automa/releases/download/v$version/automa-v$version-windows-x64.zip"
+                "url": "https://github.com/tuquet/tuquet-automa-runner/releases/download/v$version/automa-v$version-windows-x64.zip"
             }
         }
     }
