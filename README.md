@@ -10,7 +10,7 @@ Add the Tuquet bucket to your local Scoop installation:
 
 ```powershell
 # Add the Tuquet bucket
-scoop bucket add tuquet https://github.com/tuquet/tuquet-scoop-bucket
+scoop bucket add tuquet https://github.com/tuquet/scoop-bucket
 
 # Update local bucket index
 scoop update
@@ -90,7 +90,7 @@ scoop uninstall tuquet
 
 This bucket uses [Scoop Excavator](https://github.com/ScoopInstaller/GithubActions) to track upstream releases:
 - **`claude-agy`**: Tracks [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) releases.
-- **`tuquet`**: Tracks [tuquet/tuquet-cli](https://github.com/tuquet/tuquet-cli) releases.
+- **`tuquet`**: Tracks [tuquet/cli](https://github.com/tuquet/cli) releases.
 
 To manually trigger update checks, navigate to the **Actions** tab on GitHub and run the **Excavator (Auto-Update)** workflow.
 
