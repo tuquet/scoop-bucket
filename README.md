@@ -90,7 +90,7 @@ scoop uninstall tuquet
 
 This bucket uses [Scoop Excavator](https://github.com/ScoopInstaller/GithubActions) to track upstream releases:
 - **`claude-agy`**: Tracks [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) releases.
-- **`tuquet`**: Tracks [tuquet/tuquet-automa-runner](https://github.com/tuquet/tuquet-automa-runner) releases.
+- **`tuquet`**: Tracks [tuquet/tuquet-cli](https://github.com/tuquet/tuquet-cli) releases.
 
 To manually trigger update checks, navigate to the **Actions** tab on GitHub and run the **Excavator (Auto-Update)** workflow.
 
