@@ -6,16 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/tuquet/tuquet-automa-runner/releases/download/v1.0.0/tuquet-v1.0.0-windows-x64.zip",
-            "hash": "8903df8a8ec738093bee082e96bc8ace26ece9fb0c29495d390eb36fe350271c"
+            "hash": "f0d8e34c94cfceb9e63538abf4c4173ddcde605f270bf0a29d358d37e735f22b"
         }
     },
-    "bin": [
-        "tuquet.exe",
-        [
-            "tuquet.exe",
-            "automa"
-        ]
-    ],
+    "bin": "tuquet.exe",
     "checkver": {
         "github": "https://github.com/tuquet/tuquet-automa-runner"
     },

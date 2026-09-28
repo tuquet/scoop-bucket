@@ -23,7 +23,7 @@ scoop update
 | Package | Version | Description | Binaries |
 | :--- | :---: | :--- | :--- |
 | **`claude-agy`** | `7.3.17` | Claude Code CLI with Google Antigravity OAuth integration (Zero API token cost & On-Demand Proxy Lifecycle) | `claude-agy.cmd` |
-| **`automa`** | `1.0.0` | Tuquet Automa Engine - High-performance automation CLI & daemon runtime | `automa.exe` |
+| **`tuquet`** | `1.0.0` | Tuquet Unified Master CLI & Distributed Automation Engine | `tuquet.exe` |
 
 ---
 
@@ -57,22 +57,31 @@ scoop uninstall claude-agy
 
 ---
 
-### 2. Tuquet Automa Engine (`automa`)
+### 2. Tuquet Master CLI (`tuquet`)
 
-Run the Tuquet Automa automation engine and daemon:
+Unified master CLI, cloud worker, and browser automation engine for the Tuquet Ecosystem:
 
 ```powershell
 # 1. Install
-scoop install automa
+scoop install tuquet
 
-# 2. Start the daemon
-automa start
+# 2. Authenticate workstation with Tuquet Cloud (optional)
+tuquet login
 
-# 3. Update anytime
-scoop update automa
+# 3. Start the daemon
+tuquet start
 
-# 4. Uninstall
-scoop uninstall automa
+# 4. Check status
+tuquet status
+
+# 5. Run a browser workflow
+tuquet run <workflow.json>
+
+# 6. Update anytime
+scoop update tuquet
+
+# 7. Uninstall cleanly
+scoop uninstall tuquet
 ```
 
 ---
@@ -81,7 +90,7 @@ scoop uninstall automa
 
 This bucket uses [Scoop Excavator](https://github.com/ScoopInstaller/GithubActions) to track upstream releases:
 - **`claude-agy`**: Tracks [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) releases.
-- **`automa`**: Tracks [tuquet/tuquet-automa](https://github.com/tuquet/tuquet-automa) releases.
+- **`tuquet`**: Tracks [tuquet/tuquet-automa-runner](https://github.com/tuquet/tuquet-automa-runner) releases.
 
 To manually trigger update checks, navigate to the **Actions** tab on GitHub and run the **Excavator (Auto-Update)** workflow.
 
