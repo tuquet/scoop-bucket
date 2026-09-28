@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "description": "Tuquet Automa Runner - Native browser automation runner & bridge daemon",
+    "description": "Tuquet - Unified Master CLI & Distributed Automation Engine",
     "homepage": "https://github.com/tuquet/tuquet-automa-runner",
     "license": "MIT",
     "architecture": {
