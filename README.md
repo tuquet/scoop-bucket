@@ -24,6 +24,7 @@ scoop update
 | :--- | :---: | :--- | :--- |
 | **`claude-agy`** | `7.3.17` | Claude Code CLI with Google Antigravity OAuth integration (Zero API token cost & On-Demand Proxy Lifecycle) | `claude-agy.cmd` |
 | **`tuquet`** | `1.0.0` | Tuquet Unified Master CLI & Distributed Automation Engine | `tuquet.exe` |
+| **`tuquet-runner`** | `0.1.0` | Ultra-fast distributed worker runner daemon in Rust (`tuquet-runner` / `tqr`) | `tuquet-runner.exe`, `tqr.exe` |
 
 ---
 
@@ -91,6 +92,7 @@ scoop uninstall tuquet
 This bucket uses [Scoop Excavator](https://github.com/ScoopInstaller/GithubActions) to track upstream releases:
 - **`claude-agy`**: Tracks [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) releases.
 - **`tuquet`**: Tracks [tuquet/cli](https://github.com/tuquet/cli) releases.
+- **`tuquet-runner`**: Tracks [tuquet/runner](https://github.com/tuquet/runner) releases.
 
 To manually trigger update checks, navigate to the **Actions** tab on GitHub and run the **Excavator (Auto-Update)** workflow.
 
