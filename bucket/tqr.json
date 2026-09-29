@@ -1,11 +1,11 @@
 {
     "version": "0.1.0",
     "description": "Ultra-fast universal distributed execution engine in Rust",
-    "homepage": "https://github.com/tuquet/tuquet-runner",
+    "homepage": "https://github.com/tuquet/runner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuquet/tuquet-runner/releases/download/v0.1.0/tqr-v0.1.0-windows-x64.zip",
+            "url": "https://github.com/tuquet/runner/releases/download/v0.1.0/tqr-v0.1.0-windows-x64.zip",
             "hash": ""
         }
     },
@@ -15,12 +15,12 @@
         "logs"
     ],
     "checkver": {
-        "github": "https://github.com/tuquet/tuquet-runner"
+        "github": "https://github.com/tuquet/runner"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tuquet/tuquet-runner/releases/download/v$version/tqr-v$version-windows-x64.zip"
+                "url": "https://github.com/tuquet/runner/releases/download/v$version/tqr-v$version-windows-x64.zip"
             }
         }
     }
