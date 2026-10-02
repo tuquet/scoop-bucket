@@ -1,8 +1,18 @@
-# 🚀 Tuquet Scoop Bucket
+<div align="center">
+  <img src="./assets/logo.svg" width="76" height="76" alt="Scoop Bucket Logo" />
+  <h1>Scoop Bucket</h1>
+  <p><strong>Official Windows Package Manager Distribution Channel</strong></p>
 
-Official [Scoop](https://scoop.sh) bucket for installing, running, and updating Tuquet ecosystem tools and AI agent runtime software on Windows.
+  <p>
+    <a href="https://scoop.sh"><img src="https://img.shields.io/badge/Scoop-Bucket-brightgreen.svg" alt="Scoop" /></a>
+    <img src="https://img.shields.io/badge/Platform-Windows%2010%2B-blue.svg" alt="Platform" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
+  </p>
+</div>
 
 ---
+
+Official [Scoop](https://scoop.sh) bucket for installing, running, and updating automation ecosystem tools, developer CLIs, and AI agent runtime software on Windows.
 
 ## 📦 Installation & Setup
 
@@ -58,15 +68,15 @@ scoop uninstall claude-agy
 
 ---
 
-### 2. Tuquet Master CLI (`tuquet`)
+### 2. Master CLI (`tuquet`)
 
-Unified master CLI, cloud worker, and browser automation engine for the Tuquet Ecosystem:
+Unified master CLI, cloud worker, and browser automation engine:
 
 ```powershell
 # 1. Install
 scoop install tuquet
 
-# 2. Authenticate workstation with Tuquet Cloud (optional)
+# 2. Authenticate workstation with Cloud Control Plane (optional)
 tuquet login
 
 # 3. Start the daemon
@@ -111,6 +121,32 @@ Contributions are welcome! To add or update a manifest:
 
 ---
 
+## 🌐 Ecosystem
+
+Part of the **Automation & Agent Ecosystem**:
+
+- [Automa](https://github.com/tuquet/automa) — Native Chrome/Edge Desktop UI Automation Browser.
+- [Runner](https://github.com/tuquet/runner) — High-Performance Distributed Process Supervision Engine in Rust.
+- [Browser](https://github.com/tuquet/browser) — High-Performance Headless Web Scraping & Stealth Automation Core.
+- [Cloud](https://github.com/tuquet/cloud) — Enterprise Orchestration & Real-time Task Control Plane.
+- [CLI](https://github.com/tuquet/cli) — Developer Ergonomic CLI & Unified Command Center.
+- [Lib](https://github.com/tuquet/lib) — Monorepo for Shared Enterprise UI & Utilities (`vue-ui`, `vue-table`, `md-export`, `extension-runner`, `lunar`).
+- [Scoop Bucket](https://github.com/tuquet/scoop-bucket) — Official Windows Scoop Distribution Channel.
+
+---
+
 ## 📜 License
 
 This repository is licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  <samp>
+    <a href="https://tuquet.github.io">Portfolio</a> •
+    <a href="https://tuquet.github.io/cv">CV &amp; Resume</a> •
+    <a href="https://tuquet.github.io/automa">Automa Studio</a> •
+    <a href="https://tuquet.github.io/lib">Component Lab</a> •
+    <a href="https://github.com/tuquet/scoop-bucket">Scoop Bucket</a>
+  </samp>
+</div>
