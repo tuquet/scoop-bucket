@@ -78,14 +78,14 @@ scoop install tuquet
 # 2. Authenticate workstation with Cloud Control Plane (optional)
 tuquet login
 
-# 3. Start the daemon
-tuquet start
+# 3. Start the daemon worker
+tuquet runner start
 
-# 4. Check status
+# 4. Check unified status
 tuquet status
 
 # 5. Run a browser workflow
-tuquet run <workflow.json>
+tuquet automa run <workflow.json>
 
 # 6. Update anytime
 scoop update tuquet
@@ -129,7 +129,7 @@ Part of the **Automation & Agent Ecosystem**:
 - [Cloud](https://github.com/tuquet/cloud) — Enterprise Orchestration & Real-time Task Control Plane.
 - [CLI](https://github.com/tuquet/cli) — Developer Ergonomic CLI & Unified Command Center.
 - [Lib](https://github.com/tuquet/lib) — Monorepo for Shared Enterprise UI & Utilities (`vue-ui`, `vue-table`, `md-export`, `extension-runner`, `lunar`).
-- [Scoop Bucket](https://github.com/tuquet/scoop-bucket) — Official Windows Scoop Distribution Channel.
+- [Scoop Bucket](https://github.com/tuquet/scoop-bucket) — Official Scoop Package Manager Distribution Channel.
 
 ---
 
