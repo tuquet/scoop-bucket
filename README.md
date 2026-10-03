@@ -112,8 +112,8 @@ Contributions are welcome! To add or update a manifest:
 1. Fork this repository.
 2. Add your manifest under the [`bucket/`](bucket/) directory.
 3. Validate JSON format using:
-   ```powershell
-   Get-ChildItem -Path bucket\*.json | ForEach-Object { Get-Content $_.FullName | ConvertFrom-Json | Out-Null }
+   ```console
+   node -e "fs.readdirSync('bucket').filter(f=>f.endsWith('.json')).forEach(f=>JSON.parse(fs.readFileSync('bucket/'+f))); console.log('Valid JSON.');"
    ```
 4. Submit a Pull Request. CI will automatically validate your manifest syntax.
 
