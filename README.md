@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/logo.svg" width="76" height="76" alt="Scoop Bucket Logo" />
+  <img src="https://tuquet.github.io/icons/scoop-bucket.svg" width="76" height="76" alt="Scoop Bucket Logo" />
   <h1>Scoop Bucket</h1>
   <p><strong>Official Windows Package Manager Distribution Channel</strong></p>
 
