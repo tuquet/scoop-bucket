@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "description": "Tuquet Runner - Ultra-high performance universal distributed execution engine in Rust",
+    "homepage": "https://github.com/tuquet/runner",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tuquet/runner/releases/download/v0.1.0/tuquet-runner-v0.1.0-windows-x64.zip",
+            "hash": "79d7119e8c11a1a68f917a4529f2b2ed5dd1018f18ac3a3357cf0cb395a0f5e9"
+        }
+    },
+    "bin": "tuquet-runner.exe",
+    "checkver": {
+        "github": "https://github.com/tuquet/runner"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tuquet/runner/releases/download/v$version/tuquet-runner-v$version-windows-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

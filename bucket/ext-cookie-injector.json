@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "description": "Cookie & Session Injector - Injects saved auth cookies into browser profiles",
+    "homepage": "https://github.com/tuquet/browser",
+    "license": "MIT",
+    "url": "https://github.com/tuquet/browser/releases/download/v1.0.0/cookie-injector-v1.0.0.zip",
+    "hash": "",
+    "checkver": {
+        "github": "https://github.com/tuquet/browser"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "description": "Automa MV3 Runner Extension - Official CDP automation driver for Tuquet Browser",
+    "homepage": "https://github.com/tuquet/automa",
+    "license": "MIT",
+    "url": "https://github.com/tuquet/automa/releases/download/v1.0.0/automa-runner-v1.0.0.zip",
+    "hash": "",
+    "checkver": {
+        "github": "https://github.com/tuquet/automa"
+    },
+    "autoupdate": {
+        "url": "https://github.com/tuquet/automa/releases/download/v$version/automa-runner-v$version.zip"
+    }
+}

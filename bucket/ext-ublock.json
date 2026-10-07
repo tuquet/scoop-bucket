@@ -1,0 +1,14 @@
+{
+    "version": "1.75.0",
+    "description": "uBlock Origin - High-efficiency content blocker for automated browser scraping",
+    "homepage": "https://github.com/gorhill/uBlock",
+    "license": "GPL-3.0",
+    "url": "https://github.com/gorhill/uBlock/releases/download/1.75.0/uBlock0_1.75.0.chromium.zip",
+    "hash": "",
+    "checkver": {
+        "github": "https://github.com/gorhill/uBlock"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gorhill/uBlock/releases/download/$version/uBlock0_$version.chromium.zip"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Bucket Manifests",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "Get-ChildItem -Path bucket\\*.json | ForEach-Object { try { Get-Content $_.FullName | ConvertFrom-Json | Out-Null; Write-Host \"[OK] $($_.Name)\" -ForegroundColor Green } catch { Write-Host \"[ERROR] $($_.Name): $($_.Exception.Message)\" -ForegroundColor Red } }"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true
+      }
+    }
+  ]
+}
