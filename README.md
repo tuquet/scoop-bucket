@@ -68,31 +68,31 @@ scoop uninstall claude-agy
 
 ---
 
-### 2. Master CLI (`tuquet`)
+### 2. Master CLI (`specter`)
 
 Unified master CLI, cloud worker, and browser automation engine:
 
 ```console
 # 1. Install
-scoop install tuquet
+scoop install specter
 
 # 2. Authenticate workstation with Cloud Control Plane (optional)
-tuquet login
+specter login
 
 # 3. Start the daemon worker
-tuquet runner start
+specter runner start
 
 # 4. Check unified status
-tuquet status
+specter status
 
 # 5. Run a browser workflow
-tuquet automa run <workflow.json>
+specter automa run <workflow.json>
 
 # 6. Update anytime
-scoop update tuquet
+scoop update specter
 
 # 7. Uninstall cleanly
-scoop uninstall tuquet
+scoop uninstall specter
 ```
 
 ---

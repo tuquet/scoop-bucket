@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuquet/cli/releases/download/v1.0.0/tuquet-v1.0.0-windows-x64.zip",
-            "hash": "21df68f913b5cf9be41b807ec692cb3e393b81a7fd562e430ed75db0916ab014"
+            "url": "https://github.com/tuquet/cli/releases/download/v1.0.0/specter-windows-x64.zip",
+            "hash": "d04adf455948a245605717dcad6e05c416b69aaa477c89b7aa453749fa9661b4"
         }
     },
     "bin": "specter.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tuquet/cli/releases/download/v$version/tuquet-v$version-windows-x64.zip"
+                "url": "https://github.com/tuquet/cli/releases/download/v$version/specter-windows-x64.zip"
             }
         }
     }
