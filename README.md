@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://tuquet.github.io/icons/scoop-bucket.svg" width="76" height="76" alt="Scoop Bucket Logo" />
+  <img src="https://tuquet.com/icons/scoop-bucket.svg" width="76" height="76" alt="Scoop Bucket Logo" />
   <h1>Scoop Bucket</h1>
   <p><strong>Official Package Manager Distribution Channel for Tuquet Software</strong></p>
 
@@ -172,10 +172,10 @@ This repository is licensed under the [MIT License](LICENSE).
 
 <div align="center">
   <samp>
-    <a href="https://tuquet.github.io">Portfolio</a> •
-    <a href="https://tuquet.github.io/cv">CV &amp; Resume</a> •
-    <a href="https://tuquet.github.io/automa">Automa Studio</a> •
-    <a href="https://tuquet.github.io/lib">Component Lab</a> •
+    <a href="https://tuquet.com">Portfolio</a> •
+    <a href="https://tuquet.com/cv">CV &amp; Resume</a> •
+    <a href="https://specter.tuquet.com/automa/">Automa Studio</a> •
+    <a href="https://storybook.tuquet.com/">Component Lab</a> •
     <a href="https://github.com/tuquet/scoop-bucket">Scoop Bucket</a>
   </samp>
 </div>
