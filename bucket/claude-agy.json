@@ -1,13 +1,13 @@
 {
-    "version": "8.0.24",
+    "version": "8.0.27",
     "description": "Claude Code CLI with Google Antigravity OAuth integration (Zero API cost & On-Demand Proxy Lifecycle)",
     "homepage": "https://github.com/tuquet/claude-agy",
     "license": "MIT",
     "depends": "nodejs-lts",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.24/CLIProxyAPI_8.0.24_windows_amd64.zip",
-            "hash": "0bcb5e351adc5cf897e473660ccee9cf69a9f4dad5457d78086987310cf86cb4"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.27/CLIProxyAPI_8.0.27_windows_amd64.zip",
+            "hash": "ac6867818696aefe299c8bac1730f831cbb127f0854acca1b1aebb0110a5dc53"
         }
     },
     "bin": "bin\\claude-agy",
