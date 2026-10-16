@@ -1,15 +1,18 @@
 {
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "Specter - Autonomous Browser Automation & Distributed Mesh Runtime",
     "homepage": "https://docs.tuquet.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuquet/cli/releases/download/v1.0.0/specter-windows-x64.zip",
-            "hash": "d04adf455948a245605717dcad6e05c416b69aaa477c89b7aa453749fa9661b4"
+            "url": "https://github.com/tuquet/cli/releases/download/v1.2.0/specter-windows-x64.zip",
+            "hash": "4dc0b02172f20efcc3eec6b29a377d7de768f9f05370d1d3d38bd26b96033206"
         }
     },
-    "bin": "specter.exe",
+    "bin": [
+        "spc.exe",
+        ["spc.exe", "specter"]
+    ],
     "checkver": {
         "github": "https://github.com/tuquet/cli"
     },
