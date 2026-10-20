@@ -1,11 +1,11 @@
 {
     "version": "1.2.1",
-    "description": "Tuquet - Autonomous Browser Automation & Distributed Mesh Runtime",
+    "description": "- Autonomous Browser Automation & Distributed Mesh Runtime",
     "homepage": "https://docs.tuquet.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuquet/cli/releases/download/v1.2.1/tuquet-windows-x64.zip",
+            "url": "https://github.com/tuquet/cli/releases/download/v1.2.1/windows-x64.zip",
             "hash": "3711fdda843ddcdb7cc4511a9b175ddf95812a74231209eb1762dde908148ec6"
         }
     },
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tuquet/cli/releases/download/v$version/tuquet-windows-x64.zip"
+                "url": "https://github.com/tuquet/cli/releases/download/v$version/windows-x64.zip"
             }
         }
     }

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://tuquet.com/icons/scoop-bucket.svg" width="76" height="76" alt="Scoop Bucket Logo" />
   <h1>Scoop Bucket</h1>
-  <p><strong>Official Package Manager Distribution Channel for Tuquet Software</strong></p>
+  <p><strong>Official Package Manager Distribution Channel for Software</strong></p>
 
   <p>
     <a href="https://scoop.sh"><img src="https://img.shields.io/badge/Scoop-Bucket-brightgreen.svg" alt="Scoop" /></a>
@@ -16,10 +16,10 @@ Official [Scoop](https://scoop.sh) bucket for installing, running, and updating 
 
 ## 📦 Installation & Setup
 
-Add the Tuquet bucket to your local Scoop installation:
+Add the bucket to your local Scoop installation:
 
 ```console
-# Add the Tuquet bucket
+# Add the bucket
 scoop bucket add tuquet https://github.com/tuquet/scoop-bucket
 
 # Update local bucket index
@@ -33,8 +33,8 @@ scoop update
 | Package | Version | Description | Binaries |
 | :--- | :---: | :--- | :--- |
 | **`claude-agy`** | `7.3.17.1` | Claude Code CLI with Google Antigravity OAuth integration (Zero API token cost & On-Demand Proxy Lifecycle) | `claude-agy` |
-| **`tuquet`** | `1.0.0` | Tuquet Unified Master CLI & Distributed Automation Engine (includes Runner & Automa subsystems) | `tuquet` |
-| **`tuquet-runner`** | `0.1.0` | Ultra-high performance universal distributed execution engine in Rust (Standalone Edge Daemon) | `tuquet-runner` |
+| **`tuquet`** | `1.0.0` | Unified Master CLI & Distributed Automation Engine (includes Runner & Automa subsystems) | `tuquet` |
+| **`runner`** | `0.1.0` | Ultra-high performance universal distributed execution engine in Rust (Standalone Edge Daemon) | `runner` |
 
 ---
 
@@ -97,31 +97,31 @@ scoop uninstall tuquet
 
 ---
 
-### 3. Universal Runner Daemon (`tuquet-runner`)
+### 3. Universal Runner Daemon (`runner`)
 
 Standalone kernel-level process tree supervisor and distributed edge worker daemon:
 
 ```console
 # 1. Install
-scoop install tuquet-runner
+scoop install runner
 
 # 2. Check worker daemon health (port 8765)
-tuquet-runner status
+runner status
 
 # 3. Launch detached background supervisor daemon
-tuquet-runner start -d
+runner start -d
 
 # 4. Stream real-time worker logs
-tuquet-runner logs -f
+runner logs -f
 
 # 5. Gracefully terminate daemon and clean up child process tree
-tuquet-runner stop
+runner stop
 
 # 6. Update anytime
-scoop update tuquet-runner
+scoop update runner
 
 # 7. Uninstall cleanly
-scoop uninstall tuquet-runner
+scoop uninstall runner
 ```
 
 ---
@@ -131,7 +131,7 @@ scoop uninstall tuquet-runner
 This bucket uses [Scoop Excavator](https://github.com/ScoopInstaller/GithubActions) to track upstream releases:
 - **`claude-agy`**: Tracks [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) releases.
 - **`tuquet`**: Tracks [tuquet/cli](https://github.com/tuquet/cli) releases.
-- **`tuquet-runner`**: Tracks [tuquet/runner](https://github.com/tuquet/runner) releases.
+- **`runner`**: Tracks [tuquet/runner](https://github.com/tuquet/runner) releases.
 
 To manually trigger update checks, navigate to the **Actions** tab on GitHub and run the **Excavator (Auto-Update)** workflow.
 
@@ -160,7 +160,7 @@ Part of the **Automation & Agent Ecosystem**:
 - [Cloud](https://github.com/tuquet/cloud) — Enterprise cloud orchestration & real-time telemetry control plane.
 - [CLI](https://github.com/tuquet/cli) — Developer ergonomic master CLI, interactive REPL & native MCP server.
 - [Lib](https://github.com/tuquet/lib) — Monorepo for shared enterprise UI & utilities (`vue-ui`, `vue-table`, `md-export`, `extension-runner`, `lunar`).
-- [Scoop Bucket](https://github.com/tuquet/scoop-bucket) — Official Scoop distribution channel for Tuquet software.
+- [Scoop Bucket](https://github.com/tuquet/scoop-bucket) — Official Scoop distribution channel for software.
 
 ---
 
