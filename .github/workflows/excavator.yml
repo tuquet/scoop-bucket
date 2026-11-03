@@ -24,18 +24,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1
-
-  notify:
-    name: Notify Telegram
-    needs: [excavate]
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - name: Send Telegram Notification
-        uses: tuquet/bot@main
-        with:
-          bot-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
-          status: ${{ needs.excavate.result }}
-
-
