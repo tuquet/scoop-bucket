@@ -1,4 +1,4 @@
-name: Excavator (Auto-Update)
+name: "Maintenance: auto-update"
 
 on:
   schedule:
