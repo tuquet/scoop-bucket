@@ -1,4 +1,4 @@
-name: CI (Manifest Validation)
+name: "CI: manifest validation"
 
 on:
   push:
